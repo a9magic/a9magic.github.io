@@ -7,12 +7,13 @@
 
     Open directory where you want to download the source
     
-    ```bash    
+    ```    
     cd /c/Users/xyz/workspace/
-    ```bash
+    ```
+
  + Step 2: Download the source code 
 
-    ```bash
+    ```
     git clone https://a9magic@bitbucket.org/a9magic/iskconcolumbus.git
     cd iskconcolumbus
     ```
