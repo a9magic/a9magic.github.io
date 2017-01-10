@@ -1,5 +1,7 @@
 # ISKCON Columbus Website
 
+![Design](http://image.prntscr.com/image/8dbf173eaae44e37be0ff409ce42639f.png)
+
 ## Demo
     coming soon...
 ## Clone repo
