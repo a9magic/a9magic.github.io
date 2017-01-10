@@ -1,6 +1,6 @@
 # ISKCON Columbus Website
 
-![Design](http://image.prntscr.com/image/8dbf173eaae44e37be0ff409ce42639f.png)
+![Design](http://image.prntscr.com/image/7fc2ea149f83449c9545c339526aa148.png)
 
 ## Demo
     coming soon...
