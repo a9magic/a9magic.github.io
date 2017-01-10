@@ -6,8 +6,10 @@
 - Step 1: Using Command prompt / Terminal 
 
     Open directory where you want to download the source
-        
-      cd /c/Users/xyz/workspace/
+    
+    ```bash    
+    cd /c/Users/xyz/workspace/
+    ```bash
  + Step 2: Download the source code 
 
     ```bash
