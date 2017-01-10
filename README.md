@@ -21,6 +21,6 @@
     ```
 
 ### How to Commit your changes to the Repo
-    git add README.md
-    git commit -m "Initial commit"
+    git add -A
+    git commit -m "comment here what changes you made"
     git push -u origin master
