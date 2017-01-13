@@ -41,12 +41,34 @@
 ```
 - Prabhupada's biography
 ```
-+Books
++ Books
 ```
 - Links to his books & BTG 
 ```
-+
++ Lectures
+```
+- links to Prabhupada's audio/video lectures
+```
 
+### About us
+![Design](http://image.prntscr.com/image/a248bf007f564c769779dbbdde1b841d.png)
+
++ Our Mission
+```
+- need content to display
+```
++ Governance
+```
+- need content to display
+```
++ Speakers
+```
+- need content to display
+```
++ Youth
+```
+- need content to display
+```
 
 ## Demo
     coming soon...
