@@ -31,7 +31,7 @@
 ```
 
 ### Srila Prabhupada 
-![Design](http://image.prntscr.com/image/c11ec50139e24fa19f2ad6afee6177f8.png)
+![Design](http://image.prntscr.com/image/382404b0f19742f88139a2e58769e57a.png)
 
 + Founder Acharya
 ```
