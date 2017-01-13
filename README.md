@@ -1,6 +1,52 @@
-# ISKCON Columbus Website
+# ISKCON Columbus Website - README
 
 ![Design](http://image.prntscr.com/image/7fc2ea149f83449c9545c339526aa148.png)
+
++ Technologies
+    -	WebStorm & IntelliJ as IDE
+    -	AngularJS – for core dynamic routes to pages
+    -	HTML5/CSS – to develop beautiful lightweight pages
+    -	Jquery/parallax – for scrolling and adding parallax effect
+    -	Bootstrap – adding more beauty to the pages
+    -	Font-awesome – mini-logos and icons
+    -   Grunt/Node - Server to deploy the application 
+
+# Header Section
+```
+- Creating ISKCON Columbus Logo
+- Design Banner and Slogan 
+- Links to Social Media 
+```
+
+# Sidebar & Dashboard 
+![Design](http://image.prntscr.com/image/467f5ab0406047148e47fc6b5a8b3d89.png)
+
+### Home Page
+```
+- Parallax effect to view images & Page content
+- Temple Schedule 
+- Next Maha Satsang announcement
+- Sponsor Sunday Feast
+- Sign up for services
+```
+
+### Srila Prabhupada 
+![Design](http://image.prntscr.com/image/c11ec50139e24fa19f2ad6afee6177f8.png)
+
++ Founder Acharya
+```
+- Timeline of Srila Prabhupada's journey
+```
++ Biography
+```
+- Prabhupada's biography
+```
++Books
+```
+- Links to his books & BTG 
+```
++
+
 
 ## Demo
     coming soon...
