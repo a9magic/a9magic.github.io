@@ -4,14 +4,14 @@
     <div class="sidebar-nav navbar-collapse">
         <ul class="nav in" id="side-menu">
             <sidebar-search></sidebar-search>
-            <li ui-sref-active="active">
-                <a ui-sref="dashboard.home" ng-click="check(0)"><i class="fa fa-home fa-fw"></i> Home</a>
+            <li ng-class="{active: collapseVar==1}">
+                <a ui-sref="dashboard.home" ng-click="check(1)"><i class="fa fa-home fa-fw"></i> Home</a>
             </li>
             <!-- Srila Prabhupada-->
-            <li ng-class="{active: collapseVar==1}">
-                <a href="" ng-click="check(1)"><i class="fa fa-user-md fa-fw"></i> Srila Prabhupada<span
+            <li ng-class="{active: collapseVar==2}">
+                <a href="" ng-click="check(2)"><i class="fa fa-user-md fa-fw"></i> Srila Prabhupada<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=1">
+                <ul class="nav nav-second-level" collapse="collapseVar!=2">
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.founderAcharya" class="fa fa-hand-o-right"> Founder Acharya</a>
                     </li>
@@ -32,10 +32,10 @@
             <!-- /Srila Prabhupada-->
 
             <!-- About us-->
-            <li ng-class="{active: collapseVar==2}">
-                <a href="" ng-click="check(2)"><i class="fa fa-user-secret fa-fw"></i> About Us<span
+            <li ng-class="{active: collapseVar==3}">
+                <a href="" ng-click="check(3)"><i class="fa fa-user-secret fa-fw"></i> About Us<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=2">
+                <ul class="nav nav-second-level" collapse="collapseVar!=3">
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.panels-wells" class="fa fa-hand-o-right"> Our Mission</a>
                     </li>
@@ -56,10 +56,10 @@
             <!-- /About Us-->
 
             <!-- Festivals-->
-            <li ng-class="{active: collapseVar==3}">
-                <a href="" ng-click="check(3)"><i class="fa fa-calendar fa-fw"></i> Festivals<span
+            <li ng-class="{active: collapseVar==4}">
+                <a href="" ng-click="check(4)"><i class="fa fa-calendar fa-fw"></i> Festivals<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=3">
+                <ul class="nav nav-second-level" collapse="collapseVar!=4">
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.panels-wells" class="fa fa-hand-o-right"> Maha Satsang</a>
                     </li>
@@ -74,10 +74,10 @@
             <!-- /Festivals-->
 
             <!-- Answers-->
-            <li ng-class="{active: collapseVar==4}">
-                <a href="" ng-click="check(4)"><i class="fa fa-graduation-cap fa-fw"></i> Answers<span
+            <li ng-class="{active: collapseVar==5}">
+                <a href="" ng-click="check(5)"><i class="fa fa-graduation-cap fa-fw"></i> Answers<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=4">
+                <ul class="nav nav-second-level" collapse="collapseVar!=5">
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.panels-wells">Who is Krishna&quest;</a>
                     </li>
@@ -105,10 +105,10 @@
             <!-- /Answers -->
 
             <!-- Lectures-->
-            <li ng-class="{active: collapseVar==5}">
-                <a href="" ng-click="check(5)"><i class="fa fa-book fa-fw"></i> Lectures<span
+            <li ng-class="{active: collapseVar==6}">
+                <a href="" ng-click="check(6)"><i class="fa fa-book fa-fw"></i> Lectures<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=5">
+                <ul class="nav nav-second-level" collapse="collapseVar!=6">
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.panels-wells" class="fa fa-music"> Audio</a>
                     </li>
@@ -138,8 +138,8 @@
             <!-- /Collaborate-->
 
             <!-- Gallery-->
-            <li ng-class="{active: collapseVar==7}">
-                <a href="" ng-click="check(7)"><i class="fa fa-camera fa-fw"></i> Gallery</a>
+            <li ng-class="{active: collapseVar==8}">
+                <a href="" ng-click="check(8)"><i class="fa fa-camera fa-fw"></i> Gallery</a>
             </li>
             <!-- /Gallery-->
 
@@ -162,10 +162,10 @@
                 <!--</ul>-->
                 <!--&lt;!&ndash; /.nav-second-level &ndash;&gt;-->
             <!--</li>-->
-            <li ng-class="{active:collapseVar==8}">
-                <a href="" ng-click="check(8)"><i class="fa fa-files-o fa-fw"></i> Tests<span
+            <li ng-class="{active:collapseVar==9}">
+                <a href="" ng-click="check(9)"><i class="fa fa-files-o fa-fw"></i> Tests<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=8">
+                <ul class="nav nav-second-level" collapse="collapseVar!=9">
                     <li ng-class="{active: selectedMenu=='blank'}">
                         <a ui-sref="dashboard.blank" ng-click="selectedMenu='blank'">Blank Page</a>
                     </li>

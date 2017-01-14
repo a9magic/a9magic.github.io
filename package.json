@@ -1,11 +1,14 @@
 {
   "name": "iskconcolumbus",
   "version": "0.1.0",
+  "license": "LicenseRef-LICENSE",
   "repository": {
     "type": "bitbucket",
     "url": "https://a9magic@bitbucket.org/a9magic/iskconcolumbus.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "angular-animate": "^1.3.0"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",

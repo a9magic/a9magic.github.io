@@ -78,8 +78,8 @@ module.exports = function (grunt) {
             return [
               connect.static('.tmp'),
               connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
+                  '/bower_components',
+                  connect.static('./bower_components')
               ),
               connect.static(appConfig.app)
             ];
@@ -94,8 +94,8 @@ module.exports = function (grunt) {
               connect.static('.tmp'),
               connect.static('test'),
               connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
+                  '/bower_components',
+                  connect.static('./bower_components')
               ),
               connect.static(appConfig.app)
             ];
@@ -161,16 +161,16 @@ module.exports = function (grunt) {
     },
 
     // Automatically inject Bower components into the app
-/*    wiredep: {
-      options: {
-        cwd: '<%= yeoman.app %>'
-      },
-      app: {
-        src: ['<%= yeoman.app %>/index.html'],
-        ignorePath:  /\.\.\//
-      }
-    },
-*/
+    /*    wiredep: {
+     options: {
+     cwd: '<%= yeoman.app %>'
+     },
+     app: {
+     src: ['<%= yeoman.app %>/index.html'],
+     ignorePath:  /\.\.\//
+     }
+     },
+     */
     // Renames files for browser caching purposes
     filerev: {
       dist: {
@@ -228,10 +228,10 @@ module.exports = function (grunt) {
     uglify: {
       build: {
         files: [{
-            expand: true,
-            src: '**/*.js',
-            dest: '<%= yeoman.dist %>/scripts',
-            cwd: '<%= yeoman.app %>/scripts'
+          expand: true,
+          src: '**/*.js',
+          dest: '<%= yeoman.dist %>/scripts',
+          cwd: '<%= yeoman.app %>/scripts'
         }]
       },
       options: {
@@ -289,9 +289,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-         cwd: '<%= yeoman.app %>/scripts',
+          cwd: '<%= yeoman.app %>/scripts',
           src: '**/*.js',
-         dest: '<%= yeoman.dist %>/scripts',
+          dest: '<%= yeoman.dist %>/scripts',
         }]
       }
     },
@@ -320,17 +320,17 @@ module.exports = function (grunt) {
           src:['**']
         } ,
 
-        {
-          expand: true,
-          cwd: '.tmp/images',
-          dest: '<%= yeoman.dist %>/images',
-          src: ['generated/*']
-        }, {
-          expand: true,
-          cwd: 'bower_components/bootstrap/dist',
-          src: 'fonts/*',
-          dest: '<%= yeoman.dist %>'
-        }]
+          {
+            expand: true,
+            cwd: '.tmp/images',
+            dest: '<%= yeoman.dist %>/images',
+            src: ['generated/*']
+          }, {
+            expand: true,
+            cwd: 'bower_components/bootstrap/dist',
+            src: 'fonts/*',
+            dest: '<%= yeoman.dist %>'
+          }]
       },
       styles: {
         expand: true,
