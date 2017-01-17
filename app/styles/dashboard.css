@@ -2,6 +2,16 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+/*Animate all pages entry and exit*/
+[ui-view].ng-enter, [ui-view].ng-leave {
+    animation: bounceInRight 0.8s;
+}
+
+/*.page-header {*/
+    /*padding-bottom: ((@line-height-computed / 2) - 1);*/
+    /*margin: (@line-height-computed * 2) 0 @line-height-computed;*/
+    /*border-bottom: 1px solid @page-header-border-color;*/
+/*}*/
 
 body {
     background-color: #f8f8f8;

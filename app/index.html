@@ -57,13 +57,17 @@
     <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
     <script src="../bower_components/Chart.js/Chart.min.js"></script>
+    <script src="../bower_components/jquery.stellar/jquery.stellar.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
     <script src="js/dashboard.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/scrip.js"></script>
     <!-- endbuild -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular-animate.js"></script>
 
 
     <script>
@@ -112,7 +116,11 @@
 
 <div ng-app="iskconApp">
 
-    <div ui-view></div>
+    <div class="row">
+        <div class="span12 ui-view-container">
+            <div class="well" ui-view></div>
+        </div>
+    </div>
 
 </div>
 
