@@ -73,8 +73,6 @@
 - need content to display
 ```
 ![Design](http://www.clipartbest.com/cliparts/4Tb/MKM/4TbMKMXLc.png)
-## Demo
-    coming soon...
 
 ## Installation
 ####1. Clone this project or Download that ZIP file
