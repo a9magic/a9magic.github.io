@@ -1,6 +1,6 @@
 # ISKCON Columbus Website - README
 
-## DEMO : <a href="http://recipe9.com.bkjha1.arvixevps.com/#/dashboard/home" target="_blank">Click here</a>
+## DEMO : <a href="krishnatemple.co" target="_blank">Click here</a>
 
 ![Design](http://image.prntscr.com/image/7fc2ea149f83449c9545c339526aa148.png)
 
