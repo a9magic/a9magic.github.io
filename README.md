@@ -1,5 +1,7 @@
 # ISKCON Columbus Website - README
 
+## DEMO : <a href="http://www.krishnatemple.co" target="_blank">Click here</a>
+
 ![Design](http://image.prntscr.com/image/7fc2ea149f83449c9545c339526aa148.png)
 
 + Technologies
@@ -71,8 +73,6 @@
 - need content to display
 ```
 ![Design](http://www.clipartbest.com/cliparts/4Tb/MKM/4TbMKMXLc.png)
-## Demo
-    coming soon...
 
 ## Installation
 ####1. Clone this project or Download that ZIP file
