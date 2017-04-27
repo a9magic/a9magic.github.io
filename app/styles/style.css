@@ -2,22 +2,38 @@
     margin: 0;
     padding: 0;
 }
-.homeImage {
-    height: 750px;
-    width: 100%;
-    background: #55e6c5;
-    z-index: 1;
 
-    /*width:  100px; !*or 70%, or what you want*!*/
-    /*height: 200px; !*or 70%, or what you want*!*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    }
+.homeImage {
+    width: 100%;
+    height: auto;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -moz-background-size: auto 50%;
+    -webkit-background-size: auto 50%;
+    -o-background-size: auto 50%;
+    background-size: auto 50%;}
+
+#wall_1{
+    /* The image used */
+    background-image: url("../images/home/prabhupada1.jpg");
+}
+
+#wall_2{
+    /* The image used */
+    background-image: url("../images/home/radha-natabara1.JPG");
+}
+
+#wall_3{
+    /* The image used */
+    background-image: url("../images/home/nitai-gaura1.jpg");
+}
 
 .content {
-    height: 350px;
-    width:100%;
     background: white;
     z-index: 2;
 }
@@ -35,23 +51,10 @@
     font-weight: 300;
     margin: 30px 60px;
 }
-#wall_1 {
-    background: url(../images/home/prabhupada1.jpg) repeat;
-    background-attachment: fixed;
-}
-#wall_2 {
-    background: url(../images/home/radha-natabara1.JPG) repeat;
-    background-attachment: fixed;
-}
-#wall_3 {
-    background: url(../images/home/nitai-gaura1.jpg) repeat;
-    background-attachment: fixed;
-}
 
 #nav {
     height: 70px;
     width: 100%;
-    position: fixed;
     top:0;
     left:0;
     background: rgba(255,255,255,1);

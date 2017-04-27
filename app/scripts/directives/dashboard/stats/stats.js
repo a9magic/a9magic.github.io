@@ -17,7 +17,7 @@ angular.module('iskconApp')
         'comments': '@',
         'number': '@',
         'name': '@',
-        'colour': '@',
+        'color': '@',
         'details':'@',
         'type':'@',
         'goto':'@'
