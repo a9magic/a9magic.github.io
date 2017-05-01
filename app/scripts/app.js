@@ -83,8 +83,7 @@ angular
                                 'scripts/directives/timeline/timeline.js',
                                 'scripts/directives/notifications/notifications.js',
                                 'scripts/directives/chat/chat.js',
-                                'scripts/directives/dashboard/stats/stats.js',
-                                'scripts/controllers/bubble.js'
+                                'scripts/directives/dashboard/stats/stats.js'
                             ]
                         })
                     }
@@ -164,8 +163,7 @@ angular
                                 'scripts/directives/notifications/notifications.js',
                                 'scripts/directives/chat/chat.js',
                                 'scripts/directives/dashboard/stats/stats.js',
-                                'scripts/controllers/bubble.js'
-                            ]
+                                'scripts/directives/dashboard/bubbles/bubble1.js'                            ]
                         })
                     }
                 }

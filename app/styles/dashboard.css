@@ -4,7 +4,7 @@
  */
 /*Animate all pages entry and exit*/
 [ui-view].ng-enter, [ui-view].ng-leave {
-    animation: bounceInRight 0.8s;
+    /*animation: bounceInRight 0.8s;*/
 }
 
 /*.page-header {*/
