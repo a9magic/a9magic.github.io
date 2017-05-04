@@ -4,23 +4,35 @@
 }
 
 .homeImage {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     /* Set a specific height */
     min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    /*background-position: center;*/
     background-repeat: no-repeat;
     -moz-background-size: auto 50%;
     -webkit-background-size: auto 50%;
     -o-background-size: auto 50%;
-    background-size: auto 50%;}
+    background-size: auto 50%;
+
+    filter:opacity(50%);
+}
 
 #wall_1{
     /* The image used */
-    background-image: url("../images/home/prabhupada1.jpg");
+    background-image: url("../images/srila-prabhupada/SPBack2.jpg");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #wall_2{
