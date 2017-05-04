@@ -20,7 +20,8 @@ angular.module('iskconApp')
         'color': '@',
         'details':'@',
         'type':'@',
-        'goto':'@'
+        'goto':'@',
+        'bubble':'@'
   		}
   		
   	}
