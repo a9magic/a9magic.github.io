@@ -1,5 +1,5 @@
 <div class="navbar-default sidebar" role="navigation">
-    <img class="logo" src="../../../images/iskconColumbusLogo.png" alt="Iskcon Columbus"/>
+    <img class="logo" src="images/iskconColumbusLogo.png" alt="Iskcon Columbus"/>
     <div class="sidebar-nav navbar-collapse collapse">
         <ul class="nav in" id="side-menu">
             <sidebar-search></sidebar-search>
@@ -15,13 +15,10 @@
                         <a ui-sref="dashboard.founderAcharya" class="fa fa-hand-o-right"> Founder Acharya</a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.buttons" class="fa fa-hand-o-right"> Biography</a>
+                        <a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Books</a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Book</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.typography" class="fa fa-hand-o-right"> Lecture</a>
+                        <a ui-sref="dashboard.typography" class="fa fa-hand-o-right"> Lectures</a>
                     </li>
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.icons" class="fa fa-hand-o-right"> Bhajan & Kirtan</a>
@@ -44,33 +41,48 @@
                     <li ui-sref-active="active">
                         <a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Speakers</a>
                     </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.typography" class="fa fa-hand-o-right"> Youth</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.kirtan" class="fa fa-hand-o-right"> Bhajan & Kirtan</a>
-                    </li>
                 </ul>
             </li>
             <!-- /About Us-->
 
-            <!-- Festivals-->
+            <!--&lt;!&ndash; Festivals&ndash;&gt;-->
+            <!--<li ng-class="{active: collapseVar==4}">-->
+                <!--<a href="" ng-click="check(4)"><i class="fa fa-calendar fa-fw"></i> Festivals<span-->
+                        <!--class="fa arrow"></span></a>-->
+                <!--<ul class="nav nav-second-level" collapse="collapseVar!=4">-->
+                    <!--<li ui-sref-active="active">-->
+                        <!--<a ui-sref="dashboard.panels-wells" class="fa fa-hand-o-right"> Maha Satsang</a>-->
+                    <!--</li>-->
+                    <!--<li ui-sref-active="active">-->
+                        <!--<a ui-sref="dashboard.buttons" class="fa fa-hand-o-right"> Sunday Feast</a>-->
+                    <!--</li>-->
+                    <!--<li ui-sref-active="active">-->
+                        <!--<a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Upcoming Events</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--&lt;!&ndash; /Festivals&ndash;&gt;-->
+
+            <!-- About us-->
             <li ng-class="{active: collapseVar==4}">
-                <a href="" ng-click="check(4)"><i class="fa fa-calendar fa-fw"></i> Festivals<span
+                <a href="" ng-click="check(4)"><i class="fa fa-exclamation-circle fa-fw"></i> Services<span
                         class="fa arrow"></span></a>
                 <ul class="nav nav-second-level" collapse="collapseVar!=4">
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.panels-wells" class="fa fa-hand-o-right"> Maha Satsang</a>
+                        <a ui-sref="dashboard.buttons" class="fa fa-home"> Home Programs (Satsang)</a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.buttons" class="fa fa-hand-o-right"> Sunday Feast</a>
+                        <a ui-sref="dashboard.notifications" class="fa fa-child"> Sunday School</a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.notifications" class="fa fa-hand-o-right"> Upcoming Events</a>
+                        <a ui-sref="dashboard.typography" class="fa fa-book"> Book Distribution</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography" class="fa fa-group"> College Outreach</a>
                     </li>
                 </ul>
             </li>
-            <!-- /Festivals-->
+            <!-- /About Us-->
 
             <!-- Answers-->
             <li ng-class="{active: collapseVar==5}">
@@ -119,84 +131,89 @@
             <!-- /Lectures-->
 
             <!-- Collaborate-->
-            <li ng-class="{active: collapseVar==7}">
-                <a href="" ng-click="check(7)"><i class="fa fa-users fa-fw"></i> Collaborate<span
-                        class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=7">
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.panels-wells" class="fa fa-smile-o"> Donate</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.buttons" class="fa fa-sitemap"> Volunteer</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.buttons" class="fa fa-child"> Student Activities</a>
-                    </li>
-                </ul>
-            </li>
-            <!-- /Collaborate-->
-
-            <!-- Gallery-->
             <li ng-class="{active: collapseVar==8}">
-                <a href="" ng-click="check(8)"><i class="fa fa-camera fa-fw"></i> Gallery</a>
-            </li>
-            <!-- /Gallery-->
-
-            <!--<li ng-class="{active: collapseVar==2}">-->
-                <!--<a href="" ng-click="check(2)"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span-->
-                        <!--class="fa arrow"></span></a>-->
-                <!--<ul class="nav nav-second-level" collapse="collapseVar!=2">-->
-                    <!--<li>-->
-                        <!--<a href="">Second Level Item</a>-->
-                    <!--</li>-->
-                    <!--<li ng-init="third=!third" ng-class="{active: multiCollapseVar==3}">-->
-                        <!--<a href="" ng-click="multiCheck(3)">Third Level <span class="fa arrow"></span></a>-->
-                        <!--<ul class="nav nav-third-level" collapse="multiCollapseVar!=3">-->
-                            <!--<li>-->
-                                <!--<a href="">Third Level Item</a>-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                        <!--&lt;!&ndash; /.nav-third-level &ndash;&gt;-->
-                    <!--</li>-->
-                <!--</ul>-->
-                <!--&lt;!&ndash; /.nav-second-level &ndash;&gt;-->
-            <!--</li>-->
-            <li ng-class="{active:collapseVar==9}">
-                <a href="" ng-click="check(9)"><i class="fa fa-files-o fa-fw"></i> Tests<span
+                <a href="" ng-click="check(8)"><i class="fa fa-money fa-fw"></i> Donate<span
                         class="fa arrow"></span></a>
-                <ul class="nav nav-second-level" collapse="collapseVar!=9">
-                    <li ng-class="{active: selectedMenu=='blank'}">
-                        <a ui-sref="dashboard.blank" ng-click="selectedMenu='blank'">Blank Page</a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=8">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.tithe" class="fa fa-credit-card"> Tithe - Support Monthly </a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.panels-wells"> Panels-Wells</a>
+                        <a ui-sref="dashboard.donate-new-temple" class="fa fa-align-center"> Donate for New Temple</a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.buttons"> Buttons</a>
+                        <a ui-sref="dashboard.sponsor-sunday-feast" class="fa fa-child"> Sponsor Sunday Feast</a>
                     </li>
                     <li ui-sref-active="active">
-                        <a ui-sref="dashboard.notifications"> Notifications</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.typography"> Typography</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.icons" class="fa fa-hand-o-right"> Icons</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.grid"> Grid</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="dashboard.form"> Form</a>
-                    </li>
-                    <li ui-sref-active="active">
-                        <a ui-sref="login" class="fa fa-power-off"> Login Page</a>
+                        <a ui-sref="dashboard.sponsor-book-distribution" class="fa fa-book"> Sponsor Book Distribution</a>
                     </li>
                 </ul>
             </li>
+
         </ul>
     </div>
     <!-- /.sidebar-collapse -->
+
+    <!-- /.col-lg-4 -->
+    <div class="quick-bubble" style="text-align: center">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                New Temple - Project Details
+            </div>
+            <div class="panel-body ">
+                <img class="new-temple" src="images/NewTemple.jpg">
+            </div>
+            <div class="panel-footer">
+                More Details: <a href="http://new.krishnatemple.co" target="_blank"> New Temple </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.col-lg-4 -->
+
+    <!-- /.col-lg-4 -->
+    <div class="quick-bubble" style="text-align: center">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                Support Us
+            </div>
+            <div class="panel-body">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="K94FLQYGZG3W2">
+                    <input type="image"
+                           src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                           name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif"
+                         width="1" height="1">
+                </form>
+            </div>
+            <div class="panel-footer">
+                Please support us by making an Online Donation! <a role="button" data-toggle="modal" data-target="#donateModal"></a>
+                <!-- Modal 1 -->
+                <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                                test
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.col-lg-4 -->
+
 </div> 
 
 

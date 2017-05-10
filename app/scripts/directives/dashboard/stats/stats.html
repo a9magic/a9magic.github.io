@@ -3,7 +3,7 @@
         <div class="panel-heading">
             <div class="row">
                 <div class="col-xs-3">
-                    <i class="fa fa-{{type}} fa-5x"></i>
+                    <i class="fa fa-{{type}} fa-3x" style="padding: 10px"></i>
                 </div>
                 <div class="col-xs-9 text-right">
                     <div class="huge">{{number}}</div>
@@ -12,8 +12,8 @@
             </div>
         </div>
         <a data-toggle="modal" data-target="#myModal{{bubble}}">
-            <div class="panel-footer">
-                <span class="-align-center" role="button">View Details</span>
+            <div class="panel-footer view-details">
+                <span role="button">View Details</span>
                 <!-- Add this edit option for Admins -->
                 <!--<a href="#/dashboard/icons"><span oncancel="showPrompt($event)" class="pull-right">-->
                 <!--<i class="fa fa-pencil-square-o"></i>-->
@@ -30,14 +30,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="myModalLabel">ISKCON Greater Columbus</h4>
                 </div>
                 <div class="modal-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    Click <strong><a href="http://new.krishnatemple.co" target="_blank">here</a> </strong>for more
+                    details...
                 </div>
             </div>
             <!-- /.modal-content -->
@@ -51,17 +48,50 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel2">Modal title 2</h5>
+                    <h3 style="text-align: center;" class="modal-title" id="exampleModalLabel2">Sunday Love Feast!</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    modal body
+                <div class="modal-body" style="text-align: center;">
+                    <img class="tithe-img" align="center" style="width:100%; height:100%; padding: 5px;"
+                         src="images/home/sunday-feast.png">
+                    <h4>Hare Krishna!</h4>
+                    <hr>
+                    ISKCON Columbus would like to invite you and your loved ones to join us for the Sunday love feast on
+                    05/07 starting at 11.00 AM.
+                    <hr>
+                    <h3>Sponsored by</h3>
+                    Sri Kalpana & Yedu Chandra Pillarigunta family
+                    <br/><br/>
+                    <i>To sponsor a Sunday feast, please contact Premvilas das (premvilasdas.rns@gmail.com) or Rama
+                        Tirtha das (ramatirtha.rns@gmail.com).</i>
+                    <br/>
+
+                    <h3>Feast Schedule</h3>
+                    <ul class="list-unstyled" style="text-align: left; margin-left: 2%; letter-spacing: 2px;">
+                        <ul>
+                            <li>11:00 AM - 11:30 AM: Bhajans
+                            </li>
+                            <li>11:30 AM - 12:30 PM: "Pastimes of Mother Sita, Rukmini and Jahnava Devi" by HG Sundara
+                                Mukunda das.
+                            </li>
+                            <li>12:30 PM - 01:00 PM: Aarti & Kirtan</li>
+                            <li>01:00 PM - 01:10 PM: Sri Narsimha Prayers.</li>
+                            <li>01:10 PM - 01:20 PM: Announcements</li>
+                            <li>01:20 PM: Prasadam (Vegetarian meal offered to the Lord.</li>
+                        </ul>
+                    </ul>
+
+<hr>
+                    <h3>Parking</h3>
+                    Free street parking on W.8th Avenue on weekends.
+
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
                 </div>
             </div>
         </div>
@@ -73,17 +103,17 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel3">Modal title 3</h5>
+                    <h5 class="modal-title" id="exampleModalLabel3">Our Schedule</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    modal body
+                    <schedule></schedule>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
                 </div>
             </div>
         </div>
@@ -95,13 +125,14 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel4">Modal title 4</h5>
+                    <h5 class="modal-title" id="exampleModalLabel4">Maha Satsang</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    modal body
+                    <img class="tithe-img" align="center" style="width:100%; height:100%; padding: 5px;"
+                         src="images/May06.jpg">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

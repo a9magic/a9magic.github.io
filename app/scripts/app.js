@@ -37,7 +37,9 @@ angular
                                     'scripts/directives/header/header.js',
                                     'scripts/directives/header/header-notification/header-notification.js',
                                     'scripts/directives/sidebar/sidebar.js',
-                                    'scripts/directives/sidebar/sidebar-search/sidebar-search.js'
+                                    'scripts/directives/sidebar/sidebar-search/sidebar-search.js',
+                                    'scripts/directives/dashboard/schedule/schedule.js',
+                                    'scripts/directives/footer/footer.js'
                                 ]
                             }),
                             $ocLazyLoad.load(
@@ -102,7 +104,7 @@ angular
                 url: '/login'
             })
             //   .state('dashboard.sp1',{
-            //     templateUrl:'partials/srila-prabhupada/founder-acharya.html',
+            //     templateUrl:'partials/srila-prabhupada/founder-.html',
             //     url:'/srila-prabhupada',
             //     controller:'ChartCtrl',
             //     resolve: {
@@ -167,6 +169,23 @@ angular
                         })
                     }
                 }
+            })
+
+            .state('dashboard.tithe', {
+                templateUrl: 'partials/donate/tithe.html',
+                url: '/tithe'
+            })
+            .state('dashboard.donate-new-temple', {
+                templateUrl: 'partials/donate/donate-new-temple.html',
+                url: '/donate-new-temple'
+            })
+            .state('dashboard.sponsor-sunday-feast', {
+                templateUrl: 'partials/donate/sponsor-sunday-feast.html',
+                url: '/sponsor-sunday-feast'
+            })
+            .state('dashboard.sponsor-book-distribution', {
+                templateUrl: 'partials/donate/sponsor-book-distribution.html',
+                url: '/sponsor-book-distribution'
             })
 
     }]);
